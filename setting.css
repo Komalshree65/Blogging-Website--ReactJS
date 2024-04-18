@@ -1,0 +1,105 @@
+.settings {
+  display: flex;
+}
+
+.settingWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(75, 17, 55);
+}
+
+.settingDeleteTitle {
+  color: rgb(78, 48, 71);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settingForm {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lora', serif ;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.settingsPP > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(226, 130, 196);
+  cursor: pointer;
+}
+
+.settingsPPButton:focus {
+  outline-style: none;
+}
+
+.settingForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'Lora', serif ;
+}
+
+.settingsPPInput {
+  width: 30%;
+  font-family: 'Lora', serif ;
+}
+
+.settingForm > input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmitButton {
+  align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(106, 36, 108);
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lora', serif ;
+}
+
+.settingsSubmitButton:hover {
+  background-color: rgb(99, 26, 80);
+}
